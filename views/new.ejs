@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Figure Eight Lead Generator</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  </head>
+  <body> 
+    <div class="container">
+      <fieldset margin="auto">
+        <div class="gif">
+          <img src="<%= imgurl %>">
+        </div>
+        <p><%= row.company %></p>
+        <a href="/new?page=<%= nextpage %>">Next company</a>
+        <form action="/new?page=<%= nextpage %>" method="get">
+          <input type="submit" class="ghost-button" value="I'm Felling Lucky!">
+       </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
