@@ -13,8 +13,9 @@ body {
   margin: 0 auto;
 }
 .gif {
-  height: 400px;
-  padding: auto;
+  height: 200px;
+  margin: auto;
+  position: center;
 }
 
 
