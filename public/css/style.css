@@ -9,16 +9,25 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 .container {
-  width: 600px;
-  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
 }
 .gif {
   height: 200px;
-  margin: auto;
-  position: center;
+  margin: 0 auto;
 }
 
-
+a {
+  color: #4b545f;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  display: inline-block;
+  font-weight:300;
+  width: 100%;
+  font-size: 25px;
+  padding: 10px 15px;
+  text-decoration-line: none;
+}
 
 fieldset {
   display: block;

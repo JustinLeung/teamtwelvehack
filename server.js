@@ -18,7 +18,7 @@ app.get('/new', function (req, res) {
   if (page >= companyDB.length) {
     page = 0;
   }
-  const giphyAPI = `http://api.giphy.com/v1/gifs/random?tag=robot&api_key=${giphyKey}`;
+  const giphyAPI = `http://api.giphy.com/v1/gifs/random?tag=alien&api_key=${giphyKey}`;
   request.get(giphyAPI, (error, giphyResponse) => {
     if (error) {
       console.error(error);
