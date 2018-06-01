@@ -30,7 +30,7 @@ app.get('/new', function (req, res) {
 
     return res.render('new', { 
       row: dbRow,
-      imgurl: data.images.original.url,
+      imgurl: data.images.fixed_height.url,
       nextpage: page + 1,
     });
   })
